@@ -2,7 +2,8 @@ import requests
 
 url = 'https://randomuser.me/api/'
 
-r = {'results':2}
+r = {'resulsts':1}
 
 re=requests.get(url,r)
-print(re.json())
+#print(re.json())
+print(re.url)
